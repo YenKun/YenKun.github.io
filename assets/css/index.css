@@ -22,14 +22,6 @@
 / Modify: RWD完成
 */
 /*talbe trial begins*/
-.btn-success{
-  background-color: #00c300;
-  border-color: #00c300;
-}
-.btn-info:hover{
-  background-color: #00b200;
-  border-color: #00b200;
-}
 table {
     border-collapse: collapse;
     width: 100%;
@@ -104,8 +96,8 @@ h1{
   	font-size: 26px;
   }
   #Indexslogan .col-5 img{
-  	height:250px;
-    width:310px;
+  	width:310px;
+    height: 250px;
   }
   #Indexslogan .col-5 {
     text-align: center;/*lance20170702*/
@@ -611,7 +603,7 @@ h1{
   font-size: 22px;
 }
 .box1 span .fa {
-  padding-top: 15px;
+  padding-top: 19px;
 }
   /*bootstrap try */
   * {
@@ -642,7 +634,7 @@ h1{
 }
   }
 
-@media only screen and (min-width:769px) and (max-width: 1030px) {
+@media only screen and (min-width:821px) and (max-width: 1030px) {
     /* For tablets: */
     .col-m-1 {width: 8.33%;}
     .col-m-2 {width: 16.66%;}
@@ -661,6 +653,10 @@ h1{
       .paragraph {
         font-size: 18px;
       }
+      .slogan-content>#newadd{
+        line-height: 200%;
+        font-size: 19px;
+      }
     }
 p{
   font-size:16px
@@ -676,9 +672,6 @@ p{
 }
 /*================index============*/
 /*slogan*/
-#newadd {
-  line-height: 150%;
-}
 #Indexslogan {
   color: white;
   background-color: #00c300;
@@ -696,6 +689,7 @@ p{
 
 }
 #Indexslogan .col-5 img{
+	/*width:33%;*/
 }
 
 .slogan-content {
@@ -752,7 +746,6 @@ p{
   text-align: left;
   font-size: 24px;
 }
-
 
 /*.FlexBox {
   display: -webkit-box;
@@ -1161,7 +1154,7 @@ font-size:23px
 
 
 /*===========================================================736=============================================================*/
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 820px) {
     /* For mobile phones: */
     [class*="col-"] {
         width: 100%;
@@ -1206,6 +1199,7 @@ font-size:23px
     text-align: center;
 }
 #Indexslogan .col-5 img{
+  /*width:44%*/
 }
     /*video*/
     .IndexVideo2{
@@ -1458,18 +1452,18 @@ font-size:23px
     form {
       text-align: left;
     }
-#footerbox2 .row .col-12{
-	padding-left:15px;
-	padding-right:15px;
-  margin-bottom: 30px;
 
-}
 .videotitle {
   font-size: 30px;
   line-height: 150%;
 }
 .pricing-footer,.pricing-footer2,.pricing-footer3 {
   padding-bottom: 20px;
+}
+}
+@media screen and (max-width:768px){
+#Indexslogan {
+  margin-top: 50px;
 }
 }
 @media screen and (max-width:600px){
@@ -1527,15 +1521,15 @@ font-size:23px
 #featuresBlock1st .col-4 #newadd {
   font-size: 17px;
 }
-#Indexslogan .col-5 img {
-  width: 80%;
-  height: 80%;
-}
 }
 
 @media screen and (max-width:320px){
   body{
     width: 100%;
+  }
+  #Indexslogan .col-5 img {
+    width: 80%;
+    height: 80%;
   }
   #pricingpack2-caption, #contact-caption{
     font-size:20px;
