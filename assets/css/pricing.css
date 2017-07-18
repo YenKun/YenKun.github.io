@@ -57,8 +57,8 @@ table {
   border-spacing: 0;
 }
 .price-table th {
-  font-size: 30px;
-  line-height: 40px;
+  font-size: 25px;
+  line-height: 150%;
   padding: 15px 10px;
   vertical-align: bottom;
   font-weight: 700;
@@ -68,7 +68,7 @@ table {
 }
 
 .price-table th span{
-  font-size:20px;/*lance20170704*/
+  font-size:18px;/*lance20170718*/
 }
 .price-table th:first-child {
   text-align: left;
@@ -87,7 +87,7 @@ table {
   vertical-align: middle;
   border-bottom: solid 2px #00c300;
   padding: 20px 10px;
-  height: 93px;
+  height: 90px;
 }
 .price-table td:first-child {
   text-align: left;
@@ -677,10 +677,10 @@ p{
     padding-top:0px
   }
   .price-table th{
-    font-size:30px;/*lance20170704*/
+    font-size:25px;/*lance20170718*/
   }
   .price-table th span{
-    font-size:20px;/*lance20170704*/
+    font-size:18px;/*lance20170704*/
   }
 
 /*lance20170704*/
@@ -761,7 +761,7 @@ p{
 /*========================================================768============================================================*/
 @media only screen and (max-width: 1000px) {
   #PrBox22,#PrBox33,#PrBox44{
-    margin-top: 100px;
+    margin-top: 0px;/*lance20170718 pricing ver02*/
   }
   #PrBox22 a,#PrBox33 a,#PrBox44 a{
     font-size: 18px;
@@ -832,7 +832,7 @@ font-size:23px
 	display: none
 }
 #PrBox22{
-	margin-top: 0px
+	margin-top: 5px
 }
 #PrBox22 p:first-child{
   font-weight:bold
@@ -954,7 +954,7 @@ font-size:20px;
 	display: none
 }
 #PrBox22{
-	margin-top: 0px
+	margin-top: 5px
 }
 #PrBox22 p:first-child{
   font-weight:bold
@@ -1184,5 +1184,37 @@ font-size:20px;
   }
   #featuresBox section .col-12{
     font-size: 24px;
+  }
+}
+/*lance20170718 pricing ver02*/
+.price-table-header tr .col-3 {
+  width: 20%;
+}
+#shortTable .col-3 {
+  width: 23%;
+}
+@media only screen and (min-width:769px) and (max-width: 992px) {
+.price-table td {
+  font-size: 18px;
+  padding: 12px 0;
+}
+  .price-table-header tr th h2 {
+    font-size: 20px;
+  }
+  .price-table th {
+    font-size: 20px;
+    padding: 12px 0 ;
+}
+  .price-table th span {
+    font-size: 16px;
+}
+  #shortTable .col-3 {
+    width: 22%;
+  }
+}
+@media only screen and (max-width: 768px) {
+
+  #shortTable .col-3 {
+    width: 100%;
   }
 }
