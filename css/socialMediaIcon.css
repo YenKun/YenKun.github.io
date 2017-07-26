@@ -1,4 +1,5 @@
-#lineicon{position:fixed;left:21px;bottom:85px;margin:0;padding:0;z-index:1000;}
-#fbicon{position:fixed;left:21px;bottom:40px;margin:0;padding:0;z-index:1000;}
+#lineicon{position:fixed;right:15px;bottom:165px;margin:0;padding:0;z-index:1000;}
+#fbicon{position:fixed;right:21px;bottom:120px;margin:0;padding:0;z-index:1000;}
 /*#tawkicon{position:fixed;right:21px;bottom:20px;margin:0;padding:0;z-index:1000;}*/
-#fbicon img, #lineicon img ,#tawkicon img{width:36px;height:36px}
+#fbicon img{width:48px;height:48px}
+#lineicon img{width:60px;height:60px}
