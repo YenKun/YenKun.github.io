@@ -169,7 +169,7 @@ section {
 }
 .navbar-default .navbar-brand {
 	background-image: url(../img/logo_hawk.png);
-	background-size: 65px 65px;
+	background-size: 60px 60px;
 }
 .navbar-shrink .navbar-brand {
 	background-image: url(../img/logo_hawk.png);
@@ -831,7 +831,7 @@ ul.social-list li a i {
 	font-weight: 400;
 }
 #contact-section .cover {
-	background-color: rgba(99, 99, 99, 0.85);
+	background-color: rgba(173, 173, 173, 0.8);
 }
 #contact-section .contact .contact-form {
 	margin-bottom: 40px;
