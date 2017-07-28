@@ -542,7 +542,7 @@
                                             </div>
 																						<div class="col-xs-12 col-sm-4 Applied-Arc">
                                                 <div class="portfolio_single_content">
-                                                    <img src="https://firebasestorage.googleapis.com/v0/b/yangger-58066.appspot.com/o/AppliedArc_6.webp?alt=media&token=8876db0d-1755-4ebb-a94b-65786b8a82fd" alt="title"/>
+                                                    <img src="https://firebasestorage.googleapis.com/v0/b/yangger-58066.appspot.com/o/AppliedArc_14.webp?alt=media&token=4513d2c2-abe8-43cd-94d3-13d4f471af5c" alt="title"/>
                                                     <div>
                                                         <a href="#">應用建築 Applied-Arc</a>
                                                         <span>Subtitle</span>
@@ -1075,6 +1075,11 @@
                                     </div>
                                 </div>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+															<br/>
+															<audio id="player" autoplay loop >
+															<source src="https://firebasestorage.googleapis.com/v0/b/yangger-58066.appspot.com/o/bach.mp3?alt=media&token=552d3866-f024-4822-9601-9b9e80120f2c">
+															</audio>
+															<button onclick="play()"style="background-color:#000">PLAY</button>
                             </div>
                         </div> <!-- /.row -->
                     </div> <!-- /.container -->
@@ -1088,9 +1093,6 @@
             <a href="#" class="scrolltotop"><i class="fa fa-arrow-up"></i></a> <!-- Scroll to top button -->
 						<!--music-->
 
-							<audio autoplay loop>
-								<source src="https://firebasestorage.googleapis.com/v0/b/yangger-58066.appspot.com/o/bach.mp3?alt=media&token=552d3866-f024-4822-9601-9b9e80120f2c">
-							</audio>
 
 
         </div><!-- body ends -->
@@ -1110,6 +1112,23 @@
 		<script src="inc/jquery.easing.min.js"></script>
 		<script src="inc/jquery.counterup.min.js"></script>
 		<script src="inc/smoothscroll.js"></script>
+
+
+		<!-- music-->
+		<script>
+		var i =0;
+		function play(){
+			if(i){
+				document.getElementById("player").play();
+				i=0;
+				}
+				else{
+					document.getElementById("player").pause();
+				i=1;
+				}
+			}
+
+		</script>
 
 		<!-- Theme JS -->
 		<script src="js/theme.js"></script>
